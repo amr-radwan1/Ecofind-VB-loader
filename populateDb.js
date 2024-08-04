@@ -5,7 +5,9 @@ import { OpenAIEmbeddings } from '@langchain/openai';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
 
+dotenv.config();
 
 try {
   const __filename = fileURLToPath(import.meta.url);

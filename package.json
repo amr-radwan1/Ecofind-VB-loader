@@ -8,7 +8,7 @@
   "name": "langchain",
   "version": "1.0.0",
   "description": "populating supabase db",
-  "main": "index.js",
+  "main": "populateDb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
