@@ -3,6 +3,19 @@
   "dependencies": {
     "@langchain/community": "^0.2.23",
     "@supabase/supabase-js": "^2.45.0",
-    "langchain": "^0.2.12"
-  }
+    "langchain": "file:"
+  },
+  "name": "langchain",
+  "version": "1.0.0",
+  "description": "populating supabase db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ecofind-VB-loader"
+  },
+  "author": "Amr Radwan",
+  "license": "ISC"
 }
